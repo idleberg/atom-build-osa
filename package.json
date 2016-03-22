@@ -1,0 +1,47 @@
+{
+  "name": "build-osascript",
+  "version": "0.0.0",
+  "description": "Atom Build provider for osascript, runs AppleScript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idleberg/atom-build-osascript.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "build",
+    "compile",
+    "nsis",
+    "osascript",
+    "windows",
+    "installer"
+  ],
+  "main": "lib/osascript.js",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Runs AppleScript",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "dependencies": {
+    "glob": "^7.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "^2.4.0",
+    "eslint-config-atom-build": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-jsonlint": "^1.1.2",
+    "gulp-recess": "^1.2.0"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  }
+}
