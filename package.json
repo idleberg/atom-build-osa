@@ -26,9 +26,6 @@
       }
     }
   },
-  "dependencies": {
-    "glob": "^7.0.0"
-  },
   "devDependencies": {
     "babel-eslint": "^5.0.0",
     "eslint": "^2.4.0",
