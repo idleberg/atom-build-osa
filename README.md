@@ -6,7 +6,7 @@
 
 # build-applescript
 
-[Atom Build](https://atombuild.github.io/) provider for `osascript`/`osacompiler, runs or compiles AppleScript
+[Atom Build](https://atombuild.github.io/) provider for [`osascript`][osascript]/[`osacompile`](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osacompile.1.html), runs or compiles AppleScript
 
 ## Installation
 
@@ -27,8 +27,8 @@ Before you can build, select an active target with your preferred build option.
 
 Available targets:
 
-* `Applescript: Compile` — compile with [`osacompile`](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osacompile.1.html)
-* `Applescript: Run` – run with [`osascript`](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html)
+* `Applescript: Compile` — compile with [`osacompile`][osacompile]
+* `Applescript: Run` – run with [`osascript`][osascript]
 
 ### Shortcuts
 
@@ -53,3 +53,6 @@ This work is licensed under the [The MIT License](LICENSE.md).
 ## Donate
 
 You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/atom-build-applescript) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
+
+[osascript]: https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html
+[osacompile]: https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osacompile.1.html
