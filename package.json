@@ -1,10 +1,10 @@
 {
-  "name": "build-osascript",
+  "name": "build-applescript",
   "version": "0.2.0",
-  "description": "Atom Build provider for osascript, runs AppleScript",
+  "description": "Atom Build provider for osascript/osacompiler, runs or compiles AppleScript",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idleberg/atom-build-osascript.git"
+    "url": "git+https://github.com/idleberg/atom-build-applescript.git"
   },
   "license": "MIT",
   "keywords": [
@@ -20,7 +20,7 @@
   },
   "providedServices": {
     "builder": {
-      "description": "Runs AppleScript",
+      "description": "Runs or compiles AppleScript",
       "versions": {
         "2.0.0": "provideBuilder"
       }
