@@ -14,7 +14,7 @@
     "osx",
     "run"
   ],
-  "main": "lib/osascript.js",
+  "main": "lib/provider.js",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
