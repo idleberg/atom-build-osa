@@ -8,12 +8,11 @@
   },
   "license": "MIT",
   "keywords": [
+    "applescript",
     "build",
-    "compile",
-    "nsis",
     "osascript",
-    "windows",
-    "installer"
+    "osx"
+    "run",
   ],
   "main": "lib/osascript.js",
   "engines": {
