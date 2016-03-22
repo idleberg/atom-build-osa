@@ -23,7 +23,12 @@
 
 ### Build
 
-Before you can build, choose whether you want to *run* your AppleScript or *compile* it to a `.scpt` file. You can do so by choosing a target from the command palette or by using the shortcut.
+Before you can build, select an active target with your preferred build option.
+
+Available targets:
+
+* `Applescript: Compile` — compile with [`osacompile`](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osacompile.1.html)
+* `Applescript: Run` – run with [`osascript`](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html)
 
 ### Shortcuts
 
