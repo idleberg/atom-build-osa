@@ -23,19 +23,23 @@
 
 ### Build
 
+Before you can build, choose whether you want to *run* your AppleScript or *compile* it to a `.scpt` file. You can do so using a target.
+
+### Shortcuts
+
 Here's a reminder of the default shortcuts you can use with this package:
 
-**Build script**
+**Choose target**
 
-<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> or <kbd>F9</kbd>
-
-**Jump to error**
-
-<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>G</kbd> or <kbd>F4</kbd>
+<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> or <kbd>F7</kbd>
 
 **Toggle build panel**
 
-<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd> or <kbd>F8</kbd>
+<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd> or <kbd>F8</kbd>
+
+**Build script**
+
+<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> or <kbd>F9</kbd>
 
 ## License
 
