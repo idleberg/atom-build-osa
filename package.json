@@ -11,8 +11,8 @@
     "applescript",
     "build",
     "osascript",
-    "osx"
-    "run",
+    "osx",
+    "run"
   ],
   "main": "lib/osascript.js",
   "engines": {
