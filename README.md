@@ -27,8 +27,8 @@ Before you can build, select an active target with your preferred build option.
 
 Available targets:
 
-* `Applescript: Compile` — compile with [`osacompile`][osacompile]
-* `Applescript: Run` – run with [`osascript`][osascript]
+* `Applescript: Compile` — compile with [`osacompile`][osacompile] (<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>)
+* `Applescript: Run` – run with [`osascript`][osascript] (<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Super</kbd>+<kbd>B</kbd>)
 
 ### Shortcuts
 
