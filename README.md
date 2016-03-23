@@ -27,8 +27,8 @@ Before you can build, select an active target with your preferred build option.
 
 Available targets:
 
-* `Applescript: Compile` — compile with [`osacompile`][osacompile] (<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>)
-* `Applescript: Run` – run with [`osascript`][osascript] (<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Super</kbd>+<kbd>B</kbd>)
+* `Applescript: Compile` — compile with [`osacompile`][osacompile] (<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>B</kbd>)
+* `Applescript: Run` – run with [`osascript`][osascript] (<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>B</kbd>)
 
 ### Shortcuts
 
@@ -36,15 +36,15 @@ Here's a reminder of the default shortcuts you can use with this package:
 
 **Choose target**
 
-<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> or <kbd>F7</kbd>
+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd> or <kbd>F7</kbd>
 
 **Toggle build panel**
 
-<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd> or <kbd>F8</kbd>
+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd> or <kbd>F8</kbd>
 
 **Build script**
 
-<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> or <kbd>F9</kbd>
+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>B</kbd> or <kbd>F9</kbd>
 
 ## License
 
