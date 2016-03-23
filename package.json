@@ -1,6 +1,6 @@
 {
   "name": "build-applescript",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Atom Build provider for osascript/osacompiler, runs or compiles AppleScript",
   "repository": {
     "type": "git",
