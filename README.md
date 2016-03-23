@@ -2,7 +2,7 @@
 [![apm](https://img.shields.io/apm/v/build-applescript.svg?style=flat-square)](https://atom.io/packages/build-applescript)
 [![apm](https://img.shields.io/apm/dm/build-applescript.svg?style=flat-square)](https://atom.io/packages/build-applescript)
 [![Travis](https://img.shields.io/travis/idleberg/atom-build-applescript.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-applescript)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-applescript.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-applescript#info=devDependencies)
+[![David](https://img.shields.io/david/dev/idleberg/atom-build-applescript.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-applescript#info=dependencies)
 
 # build-applescript
 
