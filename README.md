@@ -12,12 +12,25 @@
 
 ### apm
 
-* Install package `apm install build-applescript` (or use the GUI)
+Install `build-applescript` from Atom's [Package Manager](http://flight-manual.atom.io/using-atom/sections/atom-packages/) or the command-line equivalent:
+
+`$ apm install build-applescript`
 
 ### GitHub
 
-1. Change directory `cd ~/.atom/packages/`
-2. Clone repository `git clone https://github.com/idleberg/atom-build-applescript build-applescript`
+Change to your Atom packages directory:
+
+```bash
+# Windows
+$ cd %USERPROFILE%\.atom\packages
+
+# Mac OS X & Linux
+$ cd ~/.atom/packages/
+```
+
+Clone repository as `build-applescript`:
+
+`$ git clone https://github.com/idleberg/atom-build-applescript build-applescript`
 
 ## Usage
 
@@ -34,17 +47,11 @@ Available targets:
 
 Here's a reminder of the default shortcuts you can use with this package:
 
-**Choose target**
-
-<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd> or <kbd>F7</kbd>
-
-**Toggle build panel**
-
-<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd> or <kbd>F8</kbd>
-
-**Build script**
-
-<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>B</kbd> or <kbd>F9</kbd>
+| Keyboard Shortcut                                          | Description        |
+|------------------------------------------------------------|--------------------|
+| <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd> / <kbd>F7</kbd> | Choose target      |
+| <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd> / <kbd>F8</kbd> | Toggle build panel |
+| <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>B</kbd> / <kbd>F9</kbd> | Build script       |
 
 ## License
 
