@@ -31,7 +31,7 @@ gulp.task('recess', function () {
 gulp.task('jshint', function() {
     return gulp.src(['./**/*.js', self])
         .pipe(debug({title: 'jshint:'}))
-        .pipe(jshint())
+        .pipe(jshint());
 });
 
 // Lint JSON files
