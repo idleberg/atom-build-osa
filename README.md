@@ -24,13 +24,15 @@ Change to your Atom packages directory:
 # Windows
 $ cd %USERPROFILE%\.atom\packages
 
-# Mac OS X & Linux
+# Linux & macOS
 $ cd ~/.atom/packages/
 ```
 
 Clone repository as `build-applescript`:
 
-`$ git clone https://github.com/idleberg/atom-build-applescript build-applescript`
+```bash
+$ git clone https://github.com/idleberg/atom-build-applescript build-applescript
+```
 
 ## Usage
 
