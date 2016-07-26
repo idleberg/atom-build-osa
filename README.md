@@ -4,8 +4,8 @@
 [![apm](https://img.shields.io/apm/v/build-applescript.svg?style=flat-square)](https://atom.io/packages/build-applescript)
 [![apm](https://img.shields.io/apm/dm/build-applescript.svg?style=flat-square)](https://atom.io/packages/build-applescript)
 [![Travis](https://img.shields.io/travis/idleberg/atom-build-applescript.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-applescript)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-applescript.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-applescript#info=dependencies)
 [![David](https://img.shields.io/david/idleberg/atom-build-applescript.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-applescript#info=dependencies)
+[![David](https://img.shields.io/david/dev/idleberg/atom-build-applescript.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-applescript#info=devDependencies)
 
 [Atom Build](https://atombuild.github.io/) provider for [`osascript`][osascript]/[`osacompile`](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osacompile.1.html), runs or compiles AppleScript
 
