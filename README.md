@@ -7,7 +7,7 @@
 [![David](https://img.shields.io/david/idleberg/atom-build-osa.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-osa#info=dependencies)
 [![David](https://img.shields.io/david/dev/idleberg/atom-build-osa.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-osa#info=devDependencies)
 
-[Atom Build](https://atombuild.github.io/) provider for Apple's [Open Scripting Architecture][osa], [runs][osascript] or [compiles][[osacompile]] AppleScript and JavaScript for Automation (JXA)
+[Atom Build](https://atombuild.github.io/) provider for Apple's [Open Scripting Architecture][osa], [runs][osascript] or [compiles][osacompile] AppleScript and JavaScript for Automation (JXA)
 
 ## Installation
 
