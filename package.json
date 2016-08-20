@@ -1,5 +1,5 @@
 {
-  "name": "build-osa",
+  "name": "build-applescript",
   "version": "0.4.2",
   "description": "Atom Build provider for Apple Open Scripting Architecture, runs or compiles AppleScript",
   "repository": {
