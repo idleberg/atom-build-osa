@@ -1,21 +1,21 @@
-# build-applescript
+# build-osa
 
-[![apm](https://img.shields.io/apm/l/build-applescript.svg?style=flat-square)](https://atom.io/packages/build-applescript)
-[![apm](https://img.shields.io/apm/v/build-applescript.svg?style=flat-square)](https://atom.io/packages/build-applescript)
-[![apm](https://img.shields.io/apm/dm/build-applescript.svg?style=flat-square)](https://atom.io/packages/build-applescript)
-[![Travis](https://img.shields.io/travis/idleberg/atom-build-applescript.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-applescript)
-[![David](https://img.shields.io/david/idleberg/atom-build-applescript.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-applescript#info=dependencies)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-applescript.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-applescript#info=devDependencies)
+[![apm](https://img.shields.io/apm/l/build-osa.svg?style=flat-square)](https://atom.io/packages/build-osa)
+[![apm](https://img.shields.io/apm/v/build-osa.svg?style=flat-square)](https://atom.io/packages/build-osa)
+[![apm](https://img.shields.io/apm/dm/build-osa.svg?style=flat-square)](https://atom.io/packages/build-osa)
+[![Travis](https://img.shields.io/travis/idleberg/atom-build-osa.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-osa)
+[![David](https://img.shields.io/david/idleberg/atom-build-osa.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-osa#info=dependencies)
+[![David](https://img.shields.io/david/dev/idleberg/atom-build-osa.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-osa#info=devDependencies)
 
-[Atom Build](https://atombuild.github.io/) provider for [`osascript`][osascript]/[`osacompile`](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osacompile.1.html), runs or compiles AppleScript
+[Atom Build](https://atombuild.github.io/) provider for Apple's [Open Scripting Architecture][osa], [runs][osascript] or [compiles][[osacompile]] AppleScript and JavaScript for Automation (JXA)
 
 ## Installation
 
 ### apm
 
-Install `build-applescript` from Atom's [Package Manager](http://flight-manual.atom.io/using-atom/sections/atom-packages/) or the command-line equivalent:
+Install `build-osa` from Atom's [Package Manager](http://flight-manual.atom.io/using-atom/sections/atom-packages/) or the command-line equivalent:
 
-`$ apm install build-applescript`
+`$ apm install build-osa`
 
 ### GitHub
 
@@ -29,10 +29,10 @@ $ cd %USERPROFILE%\.atom\packages
 $ cd ~/.atom/packages/
 ```
 
-Clone repository as `build-applescript`:
+Clone repository as `build-osa`:
 
 ```bash
-$ git clone https://github.com/idleberg/atom-build-applescript build-applescript
+$ git clone https://github.com/idleberg/atom-build-osa build-osa
 ```
 
 ## Usage
@@ -43,8 +43,14 @@ Before you can build, select an active target with your preferred build option.
 
 Available targets:
 
-* `Applescript: Compile` — compile with [`osacompile`][osacompile] (<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>B</kbd>)
-* `Applescript: Run` – run with [`osascript`][osascript] (<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>B</kbd>)
+* `Applescript: Compile Application`
+* `Applescript: Compile Script`
+* `Applescript: Compile Script bundle`
+* `Applescript: Run Script`
+* `JXA: Compile Application`
+* `JXA: Compile Script`
+* `JXA: Compile Script bundle`
+* `JXA: Run Script`
 
 ### Shortcuts
 
@@ -62,7 +68,8 @@ This work is licensed under the [The MIT License](LICENSE.md).
 
 ## Donate
 
-You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/atom-build-applescript) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
+You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/atom-build-osa) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
 
+[osa]: https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptX/Concepts/osa.html
 [osascript]: https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html
 [osacompile]: https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osacompile.1.html

@@ -1,18 +1,18 @@
 {
-  "name": "build-applescript",
+  "name": "build-osa",
   "version": "0.4.2",
-  "description": "Atom Build provider for osascript/osacompiler, runs or compiles AppleScript",
+  "description": "Atom Build provider for Apple Open Scripting Architecture, runs or compiles AppleScript",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idleberg/atom-build-applescript.git"
+    "url": "git+https://github.com/idleberg/atom-build-osa.git"
   },
   "license": "MIT",
   "keywords": [
     "applescript",
     "build",
-    "osascript",
     "osx",
-    "run"
+    "javascript for automation",
+    "jxa"
   ],
   "main": "lib/provider.js",
   "engines": {
@@ -20,7 +20,7 @@
   },
   "providedServices": {
     "builder": {
-      "description": "Runs or compiles AppleScript",
+      "description": "Runs or compiles AppleScript and JXA",
       "versions": {
         "2.0.0": "provideBuilder"
       }
