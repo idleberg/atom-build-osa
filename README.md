@@ -43,10 +43,10 @@ Before you can build, select an active target with your preferred build option.
 
 Available targets:
 
-* `Applescript: Compile Application`
-* `Applescript: Compile Script`
-* `Applescript: Compile Script bundle`
-* `Applescript: Run Script`
+* `AppleScript: Compile Application`
+* `AppleScript: Compile Script`
+* `AppleScript: Compile Script bundle`
+* `AppleScript: Run Script`
 * `JXA: Compile Application`
 * `JXA: Compile Script`
 * `JXA: Compile Script bundle`
