@@ -38,8 +38,8 @@ $ git clone https://github.com/idleberg/atom-build-osa build-osa
 Install Node dependencies:
 
 ```bash
-cd build-osa
-npm install
+$ cd build-osa
+$ npm install
 ```
 
 ## Usage
