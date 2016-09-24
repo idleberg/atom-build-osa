@@ -35,6 +35,13 @@ Clone repository as `build-osa`:
 $ git clone https://github.com/idleberg/atom-build-osa build-osa
 ```
 
+Install Node dependencies:
+
+```bash
+cd build-osa
+npm install
+```
+
 ## Usage
 
 ### Build
