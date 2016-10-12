@@ -35,10 +35,9 @@ Clone repository as `build-osa`:
 $ git clone https://github.com/idleberg/atom-build-osa build-osa
 ```
 
-Install Node dependencies:
+Inside the cloned directory, install Node dependencies:
 
 ```bash
-$ cd build-osa
 $ yarn || npm install
 ```
 
