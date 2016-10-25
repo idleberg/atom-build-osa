@@ -4,7 +4,7 @@
 [![apm](https://img.shields.io/apm/v/build-osa.svg?style=flat-square)](https://atom.io/packages/build-osa)
 [![apm](https://img.shields.io/apm/dm/build-osa.svg?style=flat-square)](https://atom.io/packages/build-osa)
 [![Travis](https://img.shields.io/travis/idleberg/atom-build-osa.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-osa)
-[![David](https://img.shields.io/david/idleberg/atom-build-osa.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-osa#info=dependencies)
+[![David](https://img.shields.io/david/idleberg/atom-build-osa.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-osa)
 [![David](https://img.shields.io/david/dev/idleberg/atom-build-osa.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-osa?type=dev)
 
 [Atom Build](https://atombuild.github.io/) provider for Apple's [Open Scripting Architecture][osa], [runs][osascript] or [compiles][osacompile] AppleScript and JavaScript for Automation (JXA)
@@ -17,7 +17,7 @@ Install `build-osa` from Atom's [Package Manager](http://flight-manual.atom.io/u
 
 `$ apm install build-osa`
 
-### GitHub
+### Using Git
 
 Change to your Atom packages directory:
 
