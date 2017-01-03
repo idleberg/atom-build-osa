@@ -9,7 +9,7 @@
   "license": "MIT",
   "keywords": [
     "applescript",
-    "build-provider",
+    "buildprovider",
     "osx",
     "javascript for automation",
     "jxa"
@@ -27,7 +27,7 @@
     }
   },
   "package-deps": [
-    "build-provider"
+    "build"
   ],
   "dependencies": {
     "atom-package-deps": "^4.3.1"
