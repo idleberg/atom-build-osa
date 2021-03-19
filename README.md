@@ -21,11 +21,23 @@ Install `build-osa` from Atom's [Package Manager](http://flight-manual.atom.io/u
 
 Change to your Atom packages directory:
 
-```bash
-# Windows
-$ cd %USERPROFILE%\.atom\packages
+Change to your Atom packages directory:
 
-# Linux & macOS
+**Windows**
+
+```powershell
+# Powershell
+$ cd $Env:USERPROFILE\.atom\packages
+```
+
+```cmd
+:: Command Prompt
+$ cd %USERPROFILE%\.atom\packages
+```
+
+**Linux & macOS**
+
+```bash
 $ cd ~/.atom/packages/
 ```
 
@@ -70,7 +82,7 @@ Here's a reminder of the default shortcuts you can use with this package:
 
 ## License
 
-This work is licensed under the [The MIT License](LICENSE.md).
+This work is licensed under the [The MIT License](LICENSE).
 
 [osa]: https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptX/Concepts/osa.html
 [osascript]: https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html

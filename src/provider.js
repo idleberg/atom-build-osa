@@ -1,58 +1,7 @@
-'use babel';
-
+import { configSchema, getConfig } from './config';
 import { platform } from 'os';
 
-// Package settings
-import meta from '../package.json';
-
-export const config = {
-  manageDependencies: {
-    title: 'Manage Dependencies',
-    description: 'When enabled, third-party dependencies will be installed automatically',
-    type: 'boolean',
-    default: true,
-    order: 0
-  },
-  alwaysEligible: {
-    title: 'Always Eligible',
-    description: 'The build provider will be available in your project, even when not eligible',
-    type: 'boolean',
-    default: false,
-    order: 1
-  }
-};
-
-// This package depends on build, make sure it's installed
-export function activate() {
-  if (atom.config.get(meta.name + '.manageDependencies') === true) {
-    this.satisfyDependencies();
-  }
-}
-
-export function satisfyDependencies() {
-  let k;
-  let v;
-
-  require('atom-package-deps').install(meta.name);
-
-  const ref = meta['package-deps'];
-  const results = [];
-
-  for (k in ref) {
-    if (typeof ref !== 'undefined' && ref !== null) {
-      v = ref[k];
-      if (atom.packages.isPackageDisabled(v)) {
-        if (atom.inDevMode()) {
-          console.log('Enabling package \'' + v + '\'');
-        }
-        results.push(atom.packages.enablePackage(v));
-      } else {
-        results.push(void 0);
-      }
-    }
-  }
-  return results;
-}
+export { configSchema as config };
 
 export function provideBuilder() {
   return class OsaProvider {
@@ -65,14 +14,13 @@ export function provideBuilder() {
     }
 
     isEligible() {
-      if (atom.config.get(meta.name + '.alwaysEligible') === true) {
+      if (getConfig('alwaysEligible') === true) {
         return true;
       }
 
-      if (platform() === 'darwin') {
-        return true;
-      }
-      return false;
+      return platform() === 'darwin'
+        ? true
+        : false;
     }
 
     settings() {
@@ -148,4 +96,11 @@ export function provideBuilder() {
       ];
     }
   };
+}
+
+// This package depends on build, make sure it's installed
+export function activate() {
+  if (getConfig('manageDependencies') === true) {
+    this.satisfyDependencies();
+  }
 }
