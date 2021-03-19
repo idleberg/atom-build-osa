@@ -102,6 +102,6 @@ export function provideBuilder() {
 // This package depends on build, make sure it's installed
 export function activate() {
   if (getConfig('manageDependencies') === true) {
-    satisfyDependencies();
+    satisfyDependencies('build-osa');
   }
 }
