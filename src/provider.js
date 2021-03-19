@@ -1,5 +1,6 @@
 import { configSchema, getConfig } from './config';
 import { platform } from 'os';
+import { satisfyDependencies } from 'atom-satisfy-dependencies';
 
 export { configSchema as config };
 
@@ -101,6 +102,6 @@ export function provideBuilder() {
 // This package depends on build, make sure it's installed
 export function activate() {
   if (getConfig('manageDependencies') === true) {
-    this.satisfyDependencies();
+    satisfyDependencies();
   }
 }
