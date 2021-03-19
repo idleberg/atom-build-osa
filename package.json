@@ -1,6 +1,6 @@
 {
   "name": "build-osa",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Atom Build provider for Apple's Open Scripting Architecture, runs or compiles AppleScript and JavaScript for Automation (JXA)",
   "repository": "https://github.com/idleberg/atom-build-osa",
   "license": "MIT",
