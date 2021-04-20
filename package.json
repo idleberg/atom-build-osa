@@ -34,8 +34,10 @@
     ]
   ],
   "dependencies": {
+    "@atxm/developer-console": "^0.5.0",
     "atom-package-deps": "^7.2.2",
-    "atom-satisfy-dependencies": "^0.3.0"
+    "atom-satisfy-dependencies": "^0.3.0",
+    "which": "^2.0.2"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.10",
