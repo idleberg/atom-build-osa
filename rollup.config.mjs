@@ -5,7 +5,9 @@ import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
 
 const plugins = [
-  babel(),
+  babel({
+    babelHelpers: 'bundled'
+  }),
   commonjs(),
   json(),
   nodeResolve({
