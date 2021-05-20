@@ -1,10 +1,10 @@
 # build-osa
 
-[![apm](https://img.shields.io/apm/l/build-osa.svg?style=flat-square)](https://atom.io/packages/build-osa)
-[![apm](https://img.shields.io/apm/v/build-osa.svg?style=flat-square)](https://atom.io/packages/build-osa)
-[![apm](https://img.shields.io/apm/dm/build-osa.svg?style=flat-square)](https://atom.io/packages/build-osa)
+[![apm](https://flat.badgen.net/apm/license/build-osa)](https://atom.io/packages/build-osa)
+[![apm](https://flat.badgen.net/apm/v/build-osa)](https://atom.io/packages/build-osa)
+[![apm](https://flat.badgen.net/apm/dl/build-osa)](https://atom.io/packages/build-osa)
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-build-osa)](https://circleci.com/gh/idleberg/atom-build-osa)
-[![David](https://img.shields.io/david/idleberg/atom-build-osa.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-osa)
+[![David](https://flat.badgen.net/david/dev/idleberg/atom-build-osa)](https://david-dm.org/idleberg/atom-build-osa?type=dev)
 
 [Atom Build](https://atombuild.github.io/) provider for Apple's [Open Scripting Architecture][osa], [runs][osascript] or [compiles][osacompile] AppleScript and JavaScript for Automation (JXA)
 
