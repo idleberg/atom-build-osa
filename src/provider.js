@@ -2,7 +2,7 @@ import { configSchema, getConfig } from './config';
 import { platform } from 'os';
 import { satisfyDependencies } from 'atom-satisfy-dependencies';
 import Logger from './log';
-import meta from '../package.json';
+import { name } from '../package.json';
 
 export { configSchema as config };
 
@@ -107,7 +107,7 @@ export function activate() {
 
   // This package depends on build, make sure it's installed
   if (getConfig('manageDependencies') === true) {
-    satisfyDependencies(meta.name);
+    satisfyDependencies(name);
   }
 }
 
